@@ -1,0 +1,222 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Spotify Clone
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-900 text-white">
+  <!-- Header -->
+  <header class="bg-black p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <div class="text-2xl font-bold">
+     <i class="fab fa-spotify">
+     </i>
+     Spotify
+    </div>
+    <nav class="space-x-4">
+     <a class="hover:underline" href="#">
+      Premium
+     </a>
+     <a class="hover:underline" href="#">
+      Support
+     </a>
+     <a class="hover:underline" href="#">
+      Download
+     </a>
+     <span class="text-gray-500">
+      |
+     </span>
+     <a class="hover:underline" href="#">
+      Sign Up
+     </a>
+     <a class="hover:underline" href="#">
+      Log In
+     </a>
+    </nav>
+   </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="relative">
+   <img alt="A vibrant and colorful abstract background representing music and sound waves" class="w-full h-96 object-cover" height="600" src="https://storage.googleapis.com/a1aa/image/fFHwLCXa8CUgOCmtWE9NOYXD7aexCDYdPSUsk4OhTS3T9aIUA.jpg" width="1920"/>
+   <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <div class="text-center">
+     <h1 class="text-4xl font-bold mb-4">
+      Music for everyone.
+     </h1>
+     <p class="text-lg mb-6">
+      Millions of songs. No credit card needed.
+     </p>
+     <button class="bg-green-500 px-6 py-2 rounded-full text-lg">
+      Get Spotify Free
+     </button>
+    </div>
+   </div>
+  </section>
+  <!-- Features Section -->
+  <section class="container mx-auto p-6">
+   <h2 class="text-2xl font-bold mb-4">
+    Why Spotify?
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="bg-gray-800 p-4 rounded-lg">
+     <i class="fas fa-music text-green-500 text-3xl mb-4">
+     </i>
+     <h3 class="text-xl font-bold mb-2">
+      Discover New Music
+     </h3>
+     <p class="text-gray-400">
+      Explore curated playlists and discover new tracks tailored to your taste.
+     </p>
+    </div>
+    <div class="bg-gray-800 p-4 rounded-lg">
+     <i class="fas fa-mobile-alt text-green-500 text-3xl mb-4">
+     </i>
+     <h3 class="text-xl font-bold mb-2">
+      Listen Anywhere
+     </h3>
+     <p class="text-gray-400">
+      Enjoy your favorite music on your phone, tablet, or computer.
+     </p>
+    </div>
+    <div class="bg-gray-800 p-4 rounded-lg">
+     <i class="fas fa-headphones-alt text-green-500 text-3xl mb-4">
+     </i>
+     <h3 class="text-xl font-bold mb-2">
+      High Quality Audio
+     </h3>
+     <p class="text-gray-400">
+      Experience music in high definition with our premium sound quality.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Popular Playlists Section -->
+  <section class="container mx-auto p-6">
+   <h2 class="text-2xl font-bold mb-4">
+    Popular Playlists
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="bg-gray-800 p-4 rounded-lg">
+     <img alt="Cover art of a popular playlist featuring various artists" class="w-full h-48 object-cover mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/YhR9M38R0h65OhhreX2eWLbqEDdb4BUYuS4P33hce3lj61QoA.jpg" width="400"/>
+     <h3 class="text-xl font-bold mb-2">
+      Top Hits
+     </h3>
+     <p class="text-gray-400">
+      The hottest tracks right now.
+     </p>
+    </div>
+    <div class="bg-gray-800 p-4 rounded-lg">
+     <img alt="Cover art of a chill vibes playlist with relaxing music" class="w-full h-48 object-cover mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/2s5hlJ49IiqZNRZ175ei5yOpY9T3SVq2yxc8G5ZTmlPpeaIUA.jpg" width="400"/>
+     <h3 class="text-xl font-bold mb-2">
+      Chill Vibes
+     </h3>
+     <p class="text-gray-400">
+      Relax and unwind with these chill tunes.
+     </p>
+    </div>
+    <div class="bg-gray-800 p-4 rounded-lg">
+     <img alt="Cover art of a workout playlist with energetic music" class="w-full h-48 object-cover mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/cj1awFexXFV0WymD6x8ZxtqoDRh3ZpzCfHTQJkyfCuPr61QoA.jpg" width="400"/>
+     <h3 class="text-xl font-bold mb-2">
+      Workout Mix
+     </h3>
+     <p class="text-gray-400">
+      Get pumped with these high-energy tracks.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-black p-6">
+   <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+    <div>
+     <h3 class="text-xl font-bold mb-2">
+      Spotify
+     </h3>
+     <p class="text-gray-500">
+      Music for everyone.
+     </p>
+    </div>
+    <div>
+     <h3 class="text-xl font-bold mb-2">
+      Company
+     </h3>
+     <ul class="space-y-2">
+      <li>
+       <a class="hover:underline" href="#">
+        About
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Jobs
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        For the Record
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="text-xl font-bold mb-2">
+      Communities
+     </h3>
+     <ul class="space-y-2">
+      <li>
+       <a class="hover:underline" href="#">
+        For Artists
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Developers
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Advertising
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="text-xl font-bold mb-2">
+      Useful Links
+     </h3>
+     <ul class="space-y-2">
+      <li>
+       <a class="hover:underline" href="#">
+        Support
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Web Player
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Free Mobile App
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="text-center text-gray-500 mt-6">
+    © 2023 Spotify Clone. All rights reserved.
+   </div>
+  </footer>
+ </body>
+</html>
